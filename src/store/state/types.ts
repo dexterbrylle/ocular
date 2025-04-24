@@ -7,58 +7,14 @@ export const availableCurrencies = [
   'USD',
   'EUR',
   'JPY',
-  'GBP',
-  'CZK',
-  'AUD',
-  'CAD',
-  'CHF',
-  'CNY',
-  'DKK',
-  'SEK',
-  'NZD',
-  'MXN',
-  'SGD',
-  'HKD',
-  'NOK',
-  'KRW',
-  'TRY',
-  'INR',
-  'RUB',
-  'BRL',
-  'ZAR',
-  'HUF',
-  'PLN',
-  'CRC',
-  'IDR'
+  'PHP'
 ];
 
 export type AvailableCurrency =
   | 'USD'
   | 'EUR'
   | 'JPY'
-  | 'GBP'
-  | 'CZK'
-  | 'AUD'
-  | 'CAD'
-  | 'CHF'
-  | 'CNY'
-  | 'DKK'
-  | 'SEK'
-  | 'NZD'
-  | 'MXN'
-  | 'SGD'
-  | 'HKD'
-  | 'NOK'
-  | 'KRW'
-  | 'TRY'
-  | 'INR'
-  | 'RUB'
-  | 'BRL'
-  | 'ZAR'
-  | 'HUF'
-  | 'PLN'
-  | 'CRC'
-  | 'IDR';
+  | 'PHP';
 
 export interface Budget {
   id: string;
